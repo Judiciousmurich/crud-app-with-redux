@@ -6,6 +6,12 @@
     {id:2, name:'Amos',email:'amos@gmail.com'}
   ];
   const renderCard = () => users.map(user =>(
+    <div>
+      <div className='bg-gray-300 p-5 flex items-center justify-between'>
+      <h3>{user.name}</h3>
+      <span>{user.email}</span>
+      </div>
+      </div>
 
   ))
    return (
