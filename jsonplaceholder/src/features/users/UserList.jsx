@@ -8,8 +8,8 @@
   const renderCard = () => users.map(user =>(
     <div>
       <div className='bg-gray-300 p-5 flex items-center justify-between'>
-      <h3>{user.name}</h3>
-      <span>{user.email}</span>
+      <h3 className='font-bold text-lg text-gray-700' >{user.name}</h3>
+      <span className=''>{user.email}</span>
       </div>
       </div>
 
