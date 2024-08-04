@@ -2,19 +2,16 @@ import React, { useState } from "react";
 import TextField from "../../components/TextField";
 import Button from "../../components/Button";
 
-const AddUser = () => {
-  const [values, setValues] = useState({ name: "", email: "" });
-  const handleAddUser = () => {
-    setValues({ name: "", email: "" })
-    dispatchEvent(
-      addUser({
-        id: uuidv4(),
-        name: values,
-        email: values.email,
-      })
-    );
-    NavigationPreloadManager("/");
-  };
+const handleAddUser = () => {
+  setValues({ name: '', email: '' });
+  dispatch(addUser({
+    id: uuidv4(),
+    name: values.name,
+    email: values.email
+  }));
+  navigate('/');
+}
+
   return (
     <div className="mt-10 max-w-xl mx-auto">
       <TextField
