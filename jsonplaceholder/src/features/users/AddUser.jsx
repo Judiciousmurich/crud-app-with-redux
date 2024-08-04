@@ -30,6 +30,6 @@ const handleAddUser = () => {
       <Button onClick={handleAddUser}>Submit</Button>
     </div>
   );
-};
+
 
 export default AddUser;
