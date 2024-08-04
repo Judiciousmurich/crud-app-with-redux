@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const TextField = ({label, inputProps, onChange, value}) => {
+const TextField = ({ label, inputProps, onChange, value }) => {
   return (
-    <div className=''>
-        <label htmlFor=""></label>
-        <input type="text" />
+    <div className="">
+      <label>{label}</label>
+      <input {...inputProps} onChange={onChange} value={value} />
     </div>
-  )
-}
+  );
+};
 
-export default TextField
+export default TextField;
