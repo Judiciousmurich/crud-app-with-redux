@@ -4,8 +4,8 @@ import Button from "../../components/Button";
 
 const AddUser = () => {
   const navigate = useNavigate();
-  const[valus, setValues]  useState({
-    name:''
+  const[values, setValues] = useState({
+    name:'',
     email:''
   });
 } 
