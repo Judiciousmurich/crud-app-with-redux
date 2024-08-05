@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import TextField from "../../components/TextField";
 import Button from "../../components/Button";
 
+const AddUser = () => {
+  
+}
+
 const handleAddUser = () => {
   setValues({ name: '', email: '' });
   dispatch(addUser({
