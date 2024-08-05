@@ -3,8 +3,12 @@ import TextField from "../../components/TextField";
 import Button from "../../components/Button";
 
 const AddUser = () => {
-  
-}
+  const navigate = useNavigate();
+  const[valus, setValues]  useState({
+    name:''
+    email:''
+  });
+} 
 
 const handleAddUser = () => {
   setValues({ name: '', email: '' });
