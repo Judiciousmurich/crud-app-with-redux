@@ -30,7 +30,7 @@ const AddUser = () => {
         label="Name"
         value={values.name}
         onChange={(e) => setValues({ ...values, name: e.target.value })}
-        inputProps={{ type: 'text', placeholder: 'Jhon Doe' }}
+        inputProps={{ type: 'text', placeholder: 'Judy' }}
       />
       <br />
       <TextField
