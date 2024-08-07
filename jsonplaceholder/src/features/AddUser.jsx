@@ -37,7 +37,7 @@ const AddUser = () => {
         label="Email"
         value={values.email}
         onChange={(e) => setValues({ ...values, email: e.target.value })}
-        inputProps={{ type: 'email', placeholder: 'jhondoe@mail.com' }}
+        inputProps={{ type: 'email', placeholder: 'judy@mail.com' }}
       />
       <Button onClick={handleAddUser}>Submit</Button>
     </div>
